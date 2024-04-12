@@ -1,0 +1,43 @@
+.container-home-vid {
+    margin-top: 5vh;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.vid-btn {
+    font-size: 1.5em;
+    color: #fff;
+    background: transparent;
+    border: greenyellow solid 1px;
+    padding: 2vh 15vh;
+    cursor: pointer;
+    text-align: center;
+}
+
+.main-solution {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    height: 70vh;
+    width: 30vw;
+    border: greenyellow solid 1px;
+}
+
+.video {
+    height: 70vh;
+    width: 65vw;
+    border: #fff solid 2px;
+    box-shadow: inset red 0 2vw 6vh 2vw , yellow 4px 4px, yellow -4px -4px;
+}
+
+.vid {
+    height: 65vh;
+    width: 64.8vw;
+}
