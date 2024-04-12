@@ -17,10 +17,10 @@ const Navbar = () => {
                     <Link to="/tests"><button className="nav-btn">Tests</button></Link>
                     <Link to="/jobs"><button className="nav-btn">Jobs</button></Link>
                     <Link to="/contact"><button className="nav-btn">Contact us</button></Link>
-                    {/* <img src={login} alt="Login" className="login"/>  */}
-                        <SignedOut>
-                            <SignInButton className="l"/>
-                        </SignedOut>
+                    {/* <img src={login} alt="Login" className="login" /> */}
+                    <SignedOut>
+                        <SignInButton className="l" />
+                    </SignedOut>
                     <SignedIn>
                         <UserButton className="l" />
                     </SignedIn>

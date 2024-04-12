@@ -28,13 +28,18 @@
     height: 70vh;
     width: 30vw;
     border: greenyellow solid 1px;
+    -webkit-box-shadow: 0px 0px 20px 8px yellow;
+    -moz-box-shadow: 0px 0px 20px 8px yellow;
+    box-shadow: 0px 0px 20px 8px yellow;
 }
 
 .video {
     height: 70vh;
     width: 65vw;
     border: #fff solid 2px;
-    box-shadow: inset red 0 2vw 6vh 2vw , yellow 4px 4px, yellow -4px -4px;
+    -webkit-box-shadow: 0px 0px 20px 8px red;
+    -moz-box-shadow: 0px 0px 20px 8px red;
+    box-shadow: 0px 0px 20px 8px red;
 }
 
 .vid {

@@ -24,22 +24,22 @@ header {
     font-size: 1em;
 }
 
-.login {
+/* .login {
     height: 6vh;
     border-radius: 100%;
-}
+} */
 
 .logo {
     height: 15vh;
     width: 7.5vw;
     border-radius: 100%;
-
 }
 
 .l {
-    font-size: 1.4em;
+    font-size: 1.3em;
     background: #000;
     border: none;
-    color: #fff;
+    color: #FFD23F;
     cursor: pointer;
+    transition: all ease-in-out 1s;
 }
