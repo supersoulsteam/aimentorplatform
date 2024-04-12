@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 import '../CSS/video_solution.css'
+import trailer from '../assets/trailer.mp4'
+
 const Video_solution = () => {
   return (
     <div className="container-home-vid">
@@ -13,7 +15,9 @@ const Video_solution = () => {
           Text solution
         </div>
         <div className="video">
-        <iframe className="vid" src="https://supersouls-pdfwhisperer.hf.space"></iframe>
+          <video className="vid" autoPlay controls loop>
+            <source src={trailer} />
+          </video>
         </div>
       </div>
     </div>
