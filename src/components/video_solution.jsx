@@ -15,7 +15,7 @@ const Video_solution = () => {
           Text solution
         </div>
         <div className="video">
-          <video className="vid" autoPlay controls loop>
+          <video className="vid" autoPlay muted controls loop>
             <source src={trailer} />
           </video>
         </div>

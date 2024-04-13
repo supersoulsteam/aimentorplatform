@@ -26,15 +26,15 @@
 
 .text {
     height: 70vh;
-    width: 30vw;
+    width: 35vw;
     font-size: larger;
     text-align: center;
 }
 
 .video {
     height: 70vh;
-    width: 65vw;
-    border: #fff solid 2px;
+    width: 59vw;
+    border: yellow solid 2px;
     -webkit-box-shadow: 0px 0px 20px 8px red;
     -moz-box-shadow: 0px 0px 20px 8px red;
     box-shadow: 0px 0px 20px 8px red;
@@ -42,5 +42,5 @@
 
 .vid {
     height: 70vh;
-    width: 65vw;
+    width: 59vw;
 }
