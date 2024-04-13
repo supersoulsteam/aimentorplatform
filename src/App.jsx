@@ -7,8 +7,8 @@ import About from "./components/about"
 import Career from "./components/career"
 import Tests from "./components/tests"
 import Jobs from "./components/jobs"
-import Contact from "./components/contact"
-// import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
+import Champions_portal from "./components/champions_portal"
+
 import './App.css'
 const App = () => {
   return (
@@ -23,16 +23,10 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/career" element={<Career />} />
             <Route path="/tests" element={<Tests />} />
+            <Route path="/champions_portal" element={<Champions_portal/>}/>
             <Route path="/jobs" element={<Jobs />} />
-            <Route path="/contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
-        {/* <SignedOut>
-          <SignInButton />
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn> */}
       </header>
     </>
   )

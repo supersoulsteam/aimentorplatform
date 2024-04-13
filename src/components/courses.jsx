@@ -1,5 +1,6 @@
 import Footer from "./footer"
 import '../CSS/courses.css'
+import trailer from '../assets/trailer.mp4'
 
 const Courses = () => {
   return (
@@ -7,30 +8,57 @@ const Courses = () => {
       <div className="c-heading">
         <h1>COURSES</h1>
       </div>
+      <div className="divider-main">
+        <div className="divider1">
+          <h2>SCIENCE COURSES</h2>
+        </div>
+      </div>
       <div className="pgram-left-main">
-        <div className="pgram-left"></div>
-        <div className="pgram-left"></div>
-        <div className="pgram-left"></div>
+        <div className="pgram-left">
+        <iframe className="vid-pgram-left" src="https://www.youtube.com/embed/9fQAGZKwUME?si=0EYWGTpV0YM9BfBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div className="pgram-left">
+          <iframe className="vid-pgram-left" src="https://www.youtube.com/embed/9fQAGZKwUME?si=0EYWGTpV0YM9BfBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div className="pgram-left">
+          <iframe className="vid-pgram-left" src="https://www.youtube.com/embed/9fQAGZKwUME?si=0EYWGTpV0YM9BfBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
       <div className="divider-main">
-        <div className="divider1"></div>
+        <div className="divider1">
+          <h2>Commerce and Arts Courses</h2>
+        </div>
       </div>
       <div className="pgram-right-main">
-        <div className="pgram-right"></div>
-        <div className="pgram-right"></div>
-        <div className="pgram-right"></div>
+        <div className="pgram-right">
+          <iframe className="vid-pgram-right" src="https://www.youtube.com/embed/9fQAGZKwUME?si=0EYWGTpV0YM9BfBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div className="pgram-right">
+          <iframe  className="vid-pgram-right" src="https://www.youtube.com/embed/9fQAGZKwUME?si=0EYWGTpV0YM9BfBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div className="pgram-right">
+          <iframe  className="vid-pgram-right" src="https://www.youtube.com/embed/9fQAGZKwUME?si=0EYWGTpV0YM9BfBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
       <div className="divider-main">
-        <div className="divider2"></div>
+        <div className="divider1">
+          <h2>Programming Courses</h2>
+        </div>
       </div>
       <div className="pgram-left-main">
-        <div className="pgram-left"></div>
-        <div className="pgram-left"></div>
-        <div className="pgram-left"></div>
+        <div className="pgram-left">
+          <iframe className="vid-pgram-left" src="https://www.youtube.com/embed/9fQAGZKwUME?si=0EYWGTpV0YM9BfBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div className="pgram-left">
+          <iframe className="vid-pgram-left" src="https://www.youtube.com/embed/9fQAGZKwUME?si=0EYWGTpV0YM9BfBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div className="pgram-left">
+          <iframe className="vid-pgram-left" src="https://www.youtube.com/embed/9fQAGZKwUME?si=0EYWGTpV0YM9BfBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
       <div className="em-model-main">
         <div className="em-model">
-          <iframe className="vid-model" src=""></iframe>
+          <iframe className="pdf" src="https://supersouls-pdfwhisperer.hf.space/"></iframe>
         </div>
       </div>
       <Footer />

@@ -16,5 +16,8 @@
 .features{
     width: 20vw;
     height: 38vh;
-    border: #fff solid 2px;
+}
+.f-img-home{
+    width: 20vw;
+    height: 38vh;
 }

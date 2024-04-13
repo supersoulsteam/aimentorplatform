@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Noto+Serif:wght@500&family=Patua+One&display=swap');
 * {
     padding: 0;
     margin: 0;
 }
-
 header {
     background-color: black;
     position: relative;
@@ -22,6 +22,7 @@ header {
     border: none;
     cursor: pointer;
     font-size: 1em;
+    font-family: "Patua One", serif;
 }
 
 /* .login {
@@ -42,4 +43,6 @@ header {
     color: #FFD23F;
     cursor: pointer;
     transition: all ease-in-out 1s;
+    text-transform: uppercase;
+    font-family: "Patua One", serif;
 }

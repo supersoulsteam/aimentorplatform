@@ -1,19 +1,19 @@
 import Footer from "./footer"
-import "../CSS/career.css"
+import '../CSS/champions_portal.css'
 import e from "../assets/e.png"
-import s from "../assets/s.pdf"
-const Career = () => {
+
+const Champions_portal = () => {
   return (
-    <div className="career=main">
-      <div className="tc">
-        <h1>COUNSELLOR</h1>
+    <div className="champion-main">
+        <div className="tcp">
+        <h1>CHAMPIONS PORTAL</h1>
       </div>
-      <div className="c-m">
-        <div className="counsellor-ai-main">
-          <iframe className="counsellor-ai" src="https://supersouls-soul-soother.hf.space"></iframe>
+      <div className="cp-main">
+        <div className="cp-ai-main">
+          <iframe className="cp-ai" src="https://supersouls-champions-portal.hf.space"></iframe>
         </div>
       </div>
-      <div className="c-features-main">
+      <div className="cp-features-main">
         <div className="feature-head">
           <h1>FEATURES</h1>
         </div>
@@ -57,19 +57,34 @@ const Career = () => {
           </div>
         </div>
       </div>
-      <div className="citation-main">
-        <div className="citation-main-heading">
-          <h1>CITATION</h1>
+      <div className="advantage-main">
+        <div className="advantage-main-heading">
+          <h1>ADVANTAGES</h1>
         </div>
-        <div className="citation-iframe-main">
-          <div className="citation-outer">
-            <iframe className="citation-iframe" src={s}></iframe>
+        <div className="adv-main">
+          <div className="adv-box">
+            <div className="box1"></div>
+            <div className="box2"></div>
+          </div>
+          <div className="adv-text-main">
+            <div className="adv1">
+              <h2 className="adv-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nulla dolor vitae consequatur soluta ab recusandae exercitationem nisi natus facere!</h2>
+              <h2 className="adv-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, placeat sint eius odio dolore nostrum culpa corrupti temporibus ab consequuntur.</h2>
+            </div>
+            <div className="adv2">
+              <h2 className="adv-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nulla dolor vitae consequatur soluta ab recusandae exercitationem nisi natus facere!</h2>
+              <h2 className="adv-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, placeat sint eius odio dolore nostrum culpa corrupti temporibus ab consequuntur.</h2>
+            </div>
+            <div className="adv3">
+              <h2 className="adv-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nulla dolor vitae consequatur soluta ab recusandae exercitationem nisi natus facere!</h2>
+              <h2 className="adv-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, placeat sint eius odio dolore nostrum culpa corrupti temporibus ab consequuntur.</h2>
+            </div>
           </div>
         </div>
       </div>
-      <Footer />
+        <Footer/>   
     </div>
   )
 }
 
-export default Career
+export default Champions_portal

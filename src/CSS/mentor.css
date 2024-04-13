@@ -8,7 +8,7 @@
 }
 
 .science {
-    margin: 8vh;
+    margin: 14vh;
 }
 
 .science-head {
@@ -18,10 +18,12 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 16vh;
 }
 
 .com {
-    margin-top: 8vh;
+    margin: 14vh;
 }
 
 .com-head {
@@ -30,10 +32,12 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 16vh;
 }
 
 .math {
-    margin-top: 8vh;
+    margin-top: 14vh;
 }
 
 .math-head {
@@ -42,11 +46,12 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 16vh;
 }
 
 .programming {
-    margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin: 14vh;
 }
 
 .programming-head {
@@ -55,6 +60,8 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 16vh;
 }
 
 .mentor-right {

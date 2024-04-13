@@ -4,14 +4,15 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-align: center;
-    font-size: 2.4em;
+    font-size: 4em;
+    margin-top: 10vh;
 }
 
 .pgram-left-main {
     margin-top: 8vh;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 8vh;
+    margin-bottom: 14vh;
 }
 
 .pgram-left {
@@ -24,21 +25,34 @@
     box-shadow: -10px -4px 20px 3px rgba(0, 255, 72, 0.91);
 }
 
+.vid-pgram-left{
+    height: 35vh;
+    width: 26vw;
+}
 .divider-main {
     margin-top: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    background: rgb(195, 185, 31);
+    background: linear-gradient(90deg, rgba(195, 185, 31, 1) 34%, rgba(195, 185, 31, 1) 43%, rgba(255, 255, 255, 1) 50%, rgba(255, 249, 249, 1) 53%, rgba(195, 185, 31, 1) 58%, rgba(195, 185, 31, 1) 67%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3em;
+    margin-bottom: 20vh;
+    text-transform: uppercase;
 
 }
 
-.divider1 {
+/* .divider1 {
     height: 10vh;
     width: 90vw;
-    /* background-color: #fff;
-    clip-path: polygon(0 0, 100% 0%, 67% 80%, 0 90%); */
+    background-color: #fff;
+    clip-path: polygon(0 0, 100% 0%, 67% 80%, 0 90%);
     background-color: #fff;
     transform: skew(-30deg);
+    
 
 }
 
@@ -47,12 +61,13 @@
     width: 90vw;
     background-color: #fff;
     transform: skew(-30deg);
-}
+} */
 
 .pgram-right-main {
     margin-top: 8vh;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 14vh;
 }
 
 .pgram-right {
@@ -65,12 +80,17 @@
     box-shadow: 12px -9px 20px 3px rgba(0, 255, 72, 0.91);
 }
 
+.vid-pgram-right{
+    height: 35vh;
+    width: 26vw;
+}
+
 .em-model-main {
-    margin-top: 10vh;
+    margin-top: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10vh;
+    margin-bottom: 16vh;
 }
 
 .em-model {
@@ -82,7 +102,7 @@
     box-shadow: -10px -11px 20px -4px rgb(236, 232, 232);
 }
 
-.vid-model {
+.pdf {
     height: 90vh;
     width: 70vw;
     border: none;

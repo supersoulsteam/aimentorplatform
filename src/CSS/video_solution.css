@@ -34,7 +34,6 @@
 .video {
     height: 70vh;
     width: 59vw;
-    border: yellow solid 2px;
     -webkit-box-shadow: 0px 0px 20px 8px red;
     -moz-box-shadow: 0px 0px 20px 8px red;
     box-shadow: 0px 0px 20px 8px red;
